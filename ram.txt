@@ -1,0 +1,464 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<!--  Subscrição de CDG  -->
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xml:lang="pt">
+<!--  Requisito DE 21: Titulo  -->
+<title>Base Nacional de Moradas da Região Autónoma da Madeira</title>
+<!--  Recomendação DE 8: Subtítulo  -->
+<subtitle>Base Nacional de Moradas da Região Autónoma da Madeira para descarregamento em formato GML.</subtitle>
+<!--  Requisito DE 28: Ligações para as definições dos objectos geográficos INSPIRE para este CDG específico  -->
+<link href="http://inspire.ec.europa.eu/featureconcept/Address" rel="describedby" type="text/html"/>
+<!--  Requisito DE 22: Auto-referência para este documento   -->
+<link href="http://inspire.ine.pt/SU/atom/CDG_AD_BNM_ram_Atom.xml" rel="self" type="application/atom+xml" hreflang="pt" title="Autoreferência"/>
+<!--  Ligação para esta subscrição em outro idioma. Indicação do idioma no atributo "hreflang"  -->
+<link href="http://inspire.ine.pt/SU/atom/CDG_AD_BNM_ram_Atom_en.xml" rel="alternate" type="application/atom+xml" hreflang="en" title="Este documento em Inglês"/>
+<!-- Recomendação DE 9: Ligação para o nível acima correspondente à subscrição de serviço de descarregamento  -->
+<link href="http://inspire.ine.pt/AD/atom/downloadservice.xml" rel="up" type="application/atom+xml" hreflang="pt" title="Serviço de Descarregamento INSPIRE ATOM do Instituto Nacional de Estatístico (INE)"/>
+<!--  identifier  -->
+<id>http://id.igeo.pt/sdg/886221b2-abe1-4853-8ef2-b5bb4e5f23a5</id>
+<!--  Requisito DE 23: direitos, restrições de acesso  -->
+<rights>Sem restrições</rights>
+<!--  Requisito DE 24: data/hora que esta subscrição foi actualizada  -->
+<updated>2019-11-11T12:00:00Z</updated>
+<!-- Requisito DE 25: informação de contacto  -->
+<author>
+<name>Ana Santos</name>
+<email>ana.msantos@ine.pt</email>
+</author>
+<author>
+<name>Francisco Caldeira</name>
+<email>francisco.caldeira@ine.pt</email>
+</author>
+<!--  descarregamento de um CDG específico, num determinado formato ou sistema de referência  -->
+<entry>
+<title>3101 Calheta - PTRA08/UTM_zone_28N - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3101_EPSG5016.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Calheta (3101) em PTRA08/UTM zone 28N em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/5016" label="PTRA08/UTM_zone_28N"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3101 Calheta - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3101_EPSG4258.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Calheta (3101) em ETRS896 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3101 Calheta - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3101_EPSG4326.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Calheta (3101) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3101 Calheta - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3101_EPSG3035.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Calheta (3101) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3102 Câmara de Lobos - PTRA08/UTM_zone_28N - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3102_EPSG5016.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Câmara de Lobos (3102) em PTRA08/UTM zone 28N em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/5016" label="PTRA08/UTM_zone_28N"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3102 Câmara de Lobos - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3102_EPSG4258.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Câmara de Lobos (3102) em ETRS896 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3102 Câmara de Lobos - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3102_EPSG4326.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Câmara de Lobos (3102) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3102 Câmara de Lobos - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3102_EPSG3035.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Câmara de Lobos (3102) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3103 Funchal - PTRA08/UTM_zone_28N - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3103_EPSG5016.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Funchal (3103) em PTRA08/UTM zone 28N em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/5016" label="PTRA08/UTM_zone_28N"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3103 Funchal - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3103_EPSG4258.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Funchal (3103) em ETRS896 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3103 Funchal - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3103_EPSG4326.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Funchal (3103) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3103 Funchal - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3103_EPSG3035.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Funchal (3103) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3104 Machico - PTRA08/UTM_zone_28N - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3104_EPSG5016.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Machico (3104) em PTRA08/UTM zone 28N em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/5016" label="PTRA08/UTM_zone_28N"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3104 Machico - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3104_EPSG4258.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Machico (3104) em ETRS896 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3104 Machico - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3104_EPSG4326.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Machico (3104) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3104 Machico - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3104_EPSG3035.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Machico (3104) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3105 Ponta do Sol - PTRA08/UTM_zone_28N - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3105_EPSG5016.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Ponta do Sol (3105) em PTRA08/UTM zone 28N em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/5016" label="PTRA08/UTM_zone_28N"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3105 Ponta do Sol - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3105_EPSG4258.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Ponta do Sol (3105) em ETRS896 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3105 Ponta do Sol - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3105_EPSG4326.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Ponta do Sol (3105) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3105 Ponta do Sol - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3105_EPSG3035.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Ponta do Sol (3105) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3106 Porto Moniz - PTRA08/UTM_zone_28N - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3106_EPSG5016.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Porto Moniz (3106) em PTRA08/UTM zone 28N em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/5016" label="PTRA08/UTM_zone_28N"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3106 Porto Moniz - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3106_EPSG4258.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Porto Moniz (3106) em ETRS896 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3106 Porto Moniz - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3106_EPSG4326.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Porto Moniz (3106) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3106 Porto Moniz - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3106_EPSG3035.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Porto Moniz (3106) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3106 Porto Moniz - PTRA08/UTM_zone_28N - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3106_EPSG5016.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Porto Moniz (3106) em PTRA08/UTM zone 28N em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/5016" label="PTRA08/UTM_zone_28N"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3106 Porto Moniz - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3106_EPSG4258.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Porto Moniz (3106) em ETRS896 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3106 Porto Moniz - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3106_EPSG4326.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Porto Moniz (3106) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3106 Porto Moniz - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3106_EPSG3035.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Porto Moniz (3106) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3107 Ribeira Brava - PTRA08/UTM_zone_28N - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3107_EPSG5016.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Ribeira Brava (3107) em PTRA08/UTM zone 28N em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/5016" label="PTRA08/UTM_zone_28N"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3107 Ribeira Brava - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3107_EPSG4258.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Ribeira Brava (3107) em ETRS896 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3107 Ribeira Brava - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3107_EPSG4326.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Ribeira Brava (3107) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3107 Ribeira Brava - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3107_EPSG3035.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Ribeira Brava (3107) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3108 Santa Cruz - PTRA08/UTM_zone_28N - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3108_EPSG5016.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Santa Cruz (3108) em PTRA08/UTM zone 28N em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/5016" label="PTRA08/UTM_zone_28N"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3108 Santa Cruz - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3108_EPSG4258.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Santa Cruz (3108) em ETRS896 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3108 Santa Cruz - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3108_EPSG4326.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Santa Cruz (3108) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3108 Santa Cruz - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3108_EPSG3035.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Santa Cruz (3108) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3109 Santana - PTRA08/UTM_zone_28N - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3109_EPSG5016.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Santana (3109) em PTRA08/UTM zone 28N em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/5016" label="PTRA08/UTM_zone_28N"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3109 Santana - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3109_EPSG4258.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Santana (3109) em ETRS896 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3109 Santana - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3109_EPSG4326.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Santana (3109) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3109 Santana - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3109_EPSG3035.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Santana (3109) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3110 São Vicente - PTRA08/UTM_zone_28N - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3110_EPSG5016.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="São Vicente (3110) em PTRA08/UTM zone 28N em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/5016" label="PTRA08/UTM_zone_28N"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3110 São Vicente - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3110_EPSG4258.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="São Vicente (3110) em ETRS896 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3110 São Vicente - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3110_EPSG4326.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="São Vicente (3110) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3110 São Vicente - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3110_EPSG3035.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="São Vicente (3110) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3201 Porto Santo - PTRA08/UTM_zone_28N - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3201_EPSG5016.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Porto Santo (3201) em PTRA08/UTM zone 28N em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/5016" label="PTRA08/UTM_zone_28N"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3201 Porto Santo - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3201_EPSG4258.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Porto Santo (3201) em ETRS896 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3201 Porto Santo - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3201_EPSG4326.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Porto Santo (3201) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+<entry>
+<title>3201 Porto Santo - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_3201_EPSG3035.zip" type="application/atom+xml;charset=utf-8;version=3.2" hreflang="pt" title="Porto Santo (3201) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/7ae7454a-fd0b-45a6-9c54-8eee6c3fd592</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon>29.95 -17.55 29.95 -15.70 33.22 -15.70 33.22 -17.55 29.95 -17.55</georss:polygon>
+</entry>
+</feed>

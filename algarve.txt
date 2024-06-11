@@ -1,0 +1,608 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<!--  Subscrição de CDG  -->
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xml:lang="pt">
+<!--  Requisito DE 21: Titulo  -->
+<title>Base Nacional de Moradas de Portugal Continental (NUTSII - Algarve)</title>
+<!--  Recomendação DE 8: Subtítulo  -->
+<subtitle>Base Nacional de Moradas de Portugal Continental (NUTSII - Algarve) para descarregamento em formato GML.</subtitle>
+<!--  Requisito DE 28: Ligações para as definições dos objectos geográficos INSPIRE para este CDG específico  -->
+<link href="http://inspire.ec.europa.eu/featureconcept/Address" rel="describedby" type="text/html"/>
+<!--  Requisito DE 22: Auto-referência para este documento   -->
+<link href="http://inspire.ine.pt/SU/atom/CDG_AD_BNM_pc_Algarve_Atom.xml" rel="self" type="application/atom+xml" hreflang="pt" title="Autoreferência"/>
+<!--  Ligação para esta subscrição em outro idioma. Indicação do idioma no atributo "hreflang"  -->
+<link href="http://inspire.ine.pt/SU/atom/CDG_AD_BNM_pc_Algarve_Atom_en.xml" rel="alternate" type="application/atom+xml" hreflang="en" title="Este documento em Inglês"/>
+<!-- Recomendação DE 9: Ligação para o nível acima correspondente à subscrição de serviço de descarregamento  -->
+<link href="http://inspire.ine.pt/AD/atom/downloadservice.xml" rel="up" type="application/atom+xml" hreflang="pt" title="Serviço de Descarregamento INSPIRE ATOM do Instituto Nacional de Estatístico (INE)"/>
+<!--  identifier  -->
+<id>http://id.igeo.pt/sdg/886221b2-abe1-4853-8ef2-b5bb4e5f23a5</id>
+<!--  Requisito DE 23: direitos, restrições de acesso  -->
+<rights>Sem restrições</rights>
+<!--  Requisito DE 24: data/hora que esta subscrição foi actualizada  -->
+<updated>2019-11-11T12:00:00Z</updated>
+<!-- Requisito DE 25: informação de contacto  -->
+<author>
+<name>Ana Santos</name>
+<email>ana.msantos@ine.pt</email>
+</author>
+<author>
+<name>Francisco Caldeira</name>
+<email>francisco.caldeira@ine.pt</email>
+</author>
+<!--  descarregamento de um CDG específico, num determinado formato ou sistema de referência  -->
+<entry>
+<title>0801 Albufeira - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0801_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Albufeira(0801) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0801 Albufeira - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0801_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Albufeira(0801) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0801 Albufeira - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0801_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Albufeira(0801) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0801 Albufeira - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0801_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Albufeira(0801) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0802 Alcoutim - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0802_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Alcoutim(0802) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0802 Alcoutim - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0802_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Alcoutim(0802) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0802 Alcoutim - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0802_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Alcoutim(0802) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0802 Alcoutim - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0802_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Alcoutim(0802) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0803 Aljezur - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0803_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Aljezur(0803) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0803 Aljezur - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0803_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Aljezur(0803) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0803 Aljezur - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0803_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Aljezur(0803) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0803 Aljezur - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0803_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Aljezur(0803) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0804 Castro Marim - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0804_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Castro Marim(0804) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0804 Castro Marim - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0804_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Castro Marim(0804) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0804 Castro Marim - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0804_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Castro Marim(0804) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0804 Castro Marim - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0804_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Castro Marim(0804) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0805 Faro - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0805_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Faro(0805) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0805 Faro - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0805_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Faro(0805) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0805 Faro - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0805_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Faro(0805) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0805 Faro - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0805_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Faro(0805) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0806 Lagoa - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0806_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Lagoa(0806) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0806 Lagoa - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0806_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Lagoa(0806) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0806 Lagoa - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0806_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Lagoa(0806) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0806 Lagoa - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0806_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Lagoa(0806) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0807 Lagos - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0807_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Lagos(0807) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0807 Lagos - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0807_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Lagos(0807) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0807 Lagos - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0807_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Lagos(0807) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0807 Lagos - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0807_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Lagos(0807) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0808 Loulé - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0808_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Loulé(0808) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0808 Loulé - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0808_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Loulé(0808) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0808 Loulé - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0808_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Loulé(0808) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0808 Loulé - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0808_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Loulé(0808) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0809 Monchique - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0809_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Monchique(0809) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0809 Monchique - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0809_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Monchique(0809) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0809 Monchique - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0809_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Monchique(0809) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0809 Monchique - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0809_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Monchique(0809) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0810 Olhão - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0810_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Olhão(0810) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0810 Olhão - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0810_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Olhão(0810) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0810 Olhão - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0810_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Olhão(0810) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0810 Olhão - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0810_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Olhão(0810) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0811 Portimão - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0811_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Portimão(0811) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0811 Portimão - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0811_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Portimão(0811) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0811 Portimão - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0811_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Portimão(0811) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0811 Portimão - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0811_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Portimão(0811) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0812 São Brás de Alportel - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0812_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="São Brás de Alportel(0812) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0812 São Brás de Alportel - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0812_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="São Brás de Alportel(0812) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0812 São Brás de Alportel - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0812_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="São Brás de Alportel(0812) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0812 São Brás de Alportel - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0812_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="São Brás de Alportel(0812) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0813 Silves - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0813_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Silves(0813) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0813 Silves - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0813_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Silves(0813) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0813 Silves - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0813_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Silves(0813) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0813 Silves - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0813_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Silves(0813) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0814 Tavira - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0814_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Tavira(0814) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0814 Tavira - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0814_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Tavira(0814) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0814 Tavira - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0814_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Tavira(0814) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0814 Tavira - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0814_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Tavira(0814) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0815 Vila do Bispo - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0815_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Vila do Bispo(0815) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0815 Vila do Bispo - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0815_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Vila do Bispo(0815) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0815 Vila do Bispo - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0815_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Vila do Bispo(0815) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0815 Vila do Bispo - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0815_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Vila do Bispo(0815) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0816 Vila Real de Santo António - ETRS89/TM06 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0816_EPSG3763.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Vila Real de Santo António(0816) em ETRS89/TM06 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3763" label="ETRS89/PT-TM06"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0816 Vila Real de Santo António - ETRS89 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0816_EPSG4258.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Vila Real de Santo António(0816) em ETRS89 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4258" label="ETRS89"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0816 Vila Real de Santo António - WGS84 - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0816_EPSG4326.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Vila Real de Santo António(0816) em WGS84 em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/4326" label="WGS84"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+<entry>
+<title>0816 Vila Real de Santo António - ETRS89/ETRS-LAEA - Gml</title>
+<!--  Requisito DE 26, 27, 29, 30. Tamanho do ficheiro em bytes. MIME type definido em http://www.iana.org/assignments/media-types/media-types.xhtml  -->
+<link rel="alternate" href="http://inspire.ine.pt/AD/atom/gml/Addresses_0816_EPSG3035.zip" type="application/x-gmz;charset=utf-8;version=3.2" hreflang="pt" title="Vila Real de Santo António(0816) em ETRS89/ETRS-LAEA em formato GML"/>
+<id>http://id.igeo.pt/cdg/1b772914-e3e9-4663-8557-a6aef5aa596a</id>
+<updated>2017-05-17T14:55:00Z</updated>
+<category term="http://www.opengis.net/def/crs/EPSG/0/3035" label="ETRS89/ETRS-LAEA"/>
+<georss:polygon xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0">36.80 -10.132 36.80 -5.62 42.32 -5.62 42.32 -10.132 36.80 -10.132</georss:polygon>
+</entry>
+</feed>
