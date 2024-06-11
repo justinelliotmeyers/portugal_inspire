@@ -1,0 +1,8 @@
+https://inspire.ine.pt/AD/atom/CDG_AD_BNM_pc_Norte_Atom.xml
+https://inspire.ine.pt/AD/atom/CDG_AD_BNM_pc_Centro_Atom.xml
+https://inspire.ine.pt/AD/atom/CDG_AD_BNM_pc_AML_Atom.xml
+https://inspire.ine.pt/AD/atom/CDG_AD_BNM_pc_Alentejo_Atom.xml
+https://inspire.ine.pt/AD/atom/CDG_AD_BNM_pc_Algarve_Atom.xml
+https://inspire.ine.pt/AD/atom/CDG_AD_BNM_ram_Atom.xml
+https://inspire.ine.pt/AD/atom/CDG_AD_BNM_raa_AC26_Atom.xml
+https://inspire.ine.pt/AD/atom/CDG_AD_BNM_raa_AC25_Atom.xml
